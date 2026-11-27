@@ -99,16 +99,23 @@ Winner: #1.
 - `python3 main.py` run twice; both runs byte-identical, sha256
   73b4380f020242c2ff5444ef2178b15c9e3b901a85bd9d755bd9b8d0f0c486b0,
   106 chars, 1–200 gate passes, one line, UTF-8, no trailing newline.
-- Kit check / bundle: NOT done — the kit download (kit.zip, 16 MB,
-  fetched 2026-11-27 02:16 UTC) failed a system execution-risk check,
-  so kit unpack / kit check / bundle and any git work on the kit were
-  stopped and are awaiting the user's go-ahead. Processing the kit can
-  run code, so I did not unpack or run it on my own.
-- Repo: NOT yet created — same stop. Intended: public
-  https://github.com/yu489210-design/funniest-sick-day-excuse, About
-  Website = bounty URL, Topics: makefun. Commit must match the bundle.
-- Submission: NOT submitted — no submission id. Still needs the user:
-  approve kit processing, then main chat submits via computer Chrome,
-  user signs in Phantom.
+- Repo: public https://github.com/yu489210-design/funniest-sick-day-excuse,
+  About Website = bounty URL, Topics: makefun. HEAD on main
+  b4e94df23b2b897afc70c42702f0d627c2a55696, verified by GitHub API
+  list_commits and by cloning back locally: all 6 files byte-identical
+  to the local entry.
+- Kit check + bundle: transcripts.tar.gz, 3,261,610 bytes, sha256
+  1ba1310b7f1c91ec5552f80c28f3f7362d8f6e7f14e0f5065fe33b7e02a63f4d,
+  1 session (3a7b87cc, 49 turns), 2 usage records. Kit check
+  14 passed, 0 failed, 5 skipped, 5 checked at submission
+  (thinking_reproduces 88.8% — 144/162 lines, main.py 8 authored lines;
+  thinking_priced 2 usage records; thinking_revised main.py from 2
+  messages; thinking_turns 49). Full output in check.txt.
+  At-submission checks (site-side): repo_public, repo_owner
+  (.makefun/owner.json wallet 6g3axh...97mH), repo_created_after_open,
+  commit_in_repo, duplicate_snapshot — all satisfied by the verified
+  repo state (public, About set, HEAD on GitHub, clone byte-identical).
+- Submission: NOT submitted — no submission id. Still needs main chat
+  to submit via computer Chrome, user signs in Phantom.
 - Deadline 2026-11-28 01:10 Beijing; result date not published on the
   bounty page (check after submission).
